@@ -1,0 +1,20 @@
+.place__paragraphs {
+  display: flex;
+  min-width: 288px;
+  flex-wrap: wrap;
+  margin: 0;
+  align-self: flex-start;
+  gap: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraphs {
+    gap: 26px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraphs {
+    min-width: 484px;
+  }
+}
